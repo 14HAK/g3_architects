@@ -1,6 +1,13 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 360px) {
+  .container {
+    width: 98%;
+    font-size: 7px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .container {
     width: 98%;
