@@ -26,7 +26,7 @@ body {
 .btn {
   width: 10em;
   height: 2.5em;
-  background: #edb347;
+  background: #a59430;
   font-size: 1.1em;
   cursor: pointer;
   border-radius: 0.5em;
@@ -34,11 +34,14 @@ body {
 }
 
 .btn:hover {
-  background-color: #8e6822;
-  color: #fff;
+  background-color: #d0bd58;
+  color: #000000;
 }
 .sm {
   margin: 2.5em 0px;
+}
+.sp {
+  padding: 1.5em 1.5em;
 }
 h1 {
   font-size: 3.5em;

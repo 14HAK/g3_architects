@@ -1,0 +1,47 @@
+/* colors
+
+#a59430
+#d0bd58
+#ecdf8c */
+/* header section  */
+/* .....................  */
+.manubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .logo {
+} */
+.logo:hover {
+  cursor: pointer;
+}
+.logo span {
+  color: #a59430;
+}
+/* .manus {
+} */
+.manus ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 16em;
+}
+/* .manus ul li {
+} */
+.manus ul li a {
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #a59430;
+}
+.manus ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #a59430;
+  color: #d0bd58;
+}
+
+/* .....................  */
+.superHead {
+}
+.imageHead {
+}
