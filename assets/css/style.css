@@ -207,6 +207,7 @@
 
 .sponsors img {
   filter: brightness(0) invert(0.5);
+  width: 10em;
 }
 
 /* footer section  */
