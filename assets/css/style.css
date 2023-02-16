@@ -42,6 +42,20 @@
 
 /* .....................  */
 .superHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.superHead h2 {
+  font-size: 3em;
+  padding-bottom: 5px;
+}
+
+.superHead p {
+  padding-bottom: 10px;
+  width: 70%;
 }
 .imageHead {
 }
