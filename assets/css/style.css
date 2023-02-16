@@ -46,6 +46,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0.5em 0px !important;
 }
 
 .superHead h2 {
@@ -57,5 +58,13 @@
   padding-bottom: 10px;
   width: 70%;
 }
+
+/* .....................  */
 .imageHead {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+.imageHead img {
+  width: 60em;
+  border-radius: 10px;
 }
