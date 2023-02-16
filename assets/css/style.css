@@ -41,6 +41,11 @@
 }
 
 /* .....................  */
+.back {
+  background-color: aliceblue !important;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
 .superHead {
   display: flex;
   flex-direction: column;
@@ -143,7 +148,7 @@
   position: absolute;
   bottom: -65px;
   height: 5em !important;
-  width: 7em !important;
+  width: 9em !important;
   left: -12px;
   font-size: 2.5em !important;
 }
@@ -151,6 +156,69 @@
   width: 85%;
 }
 .new {
-  padding-bottom: 10em;
+  padding-bottom: 6em;
   padding-top: 5em;
+}
+/* ............. ..................... */
+
+.facts {
+}
+
+.factHead {
+  width: 35em;
+  padding-left: 25em;
+  margin-bottom: 3em;
+  margin-top: 4em;
+}
+.factHead h3 {
+  text-align: center !important;
+}
+.factHead p {
+  text-align: center !important;
+}
+
+.factSign {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sep {
+  border: 0.1em solid #a59430;
+  padding: 1em;
+  border-radius: 10px;
+  width: 15em;
+}
+.sep:hover {
+  transition: all 0.3s linear;
+  background-color: #ecdf8c;
+  cursor: pointer;
+}
+.sep img {
+  filter: brightness(0) invert(0.5);
+}
+.sponsors {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65em;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.sponsors img {
+  filter: brightness(0) invert(0.5);
+}
+
+/* footer section  */
+
+.foot {
+  padding: 2em;
+  background-color: #a59430;
+  margin-bottom: 0px !important;
+}
+.foot p {
+  color: white;
+}
+.foot a {
+  text-decoration: dashed;
 }
